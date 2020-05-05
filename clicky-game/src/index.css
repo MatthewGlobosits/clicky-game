@@ -8,3 +8,9 @@ html, body, #root {
   margin: 0;
   height: 100%;
 }
+
+
+a{
+  color: blueviolet;
+  text-decoration: none;
+}

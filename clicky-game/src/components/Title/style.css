@@ -1,8 +1,14 @@
-.title {
-  width: 100%;
+.title  {
+  /* position: relative; */
+  font-family: 'Permanent Marker', cursive;
+  font-variant:small-caps;
+  font-size: 80px;
+  /* -webkit-transform: skew(-15deg,-15deg); */
+  padding-left: 80px;
+  background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
   text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
 }
